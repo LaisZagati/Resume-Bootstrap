@@ -69,6 +69,10 @@ header {
     font-size: 0;
 }
 
+#nav {
+    margin: 0;
+}
+
 #nav li {
     font-size: 14px;
     padding: 0;
@@ -82,7 +86,7 @@ header {
 
 .menuitem { 
     width: 100%;
-    text-decoration: none;
+    text-decoratio n: none;
     color: #fff;
     height: 120px;
 
@@ -105,3 +109,12 @@ header {
     font-weight: 300;
     letter-spacing: 2px;
 }
+
+/*--------------------------------------------Hoover.css*/
+
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 120px;
+}
+
