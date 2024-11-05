@@ -1,10 +1,13 @@
-
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 /*--------------------------------------------Colors*/
 
 .bg-color-name-title {
     background-color: #676767;
+}
+
+.bg-color-three-reasons {
+    background-color: #fff;
 }
 
 .ui-menu-color-home {
@@ -23,13 +26,31 @@
     background-color: #525252;
 }
 
-
-/*--------------------------------------------Special paddings/margins/text*/
-
-h1, h2, h3, h4 {
-    margin:0;
+.row-table {
+    display: table;
 }
 
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+/* ----------------------------------------Special paddings/margins/text */
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
 
 .uppercase {
     text-transform: uppercase;
@@ -43,6 +64,23 @@ h1, h2, h3, h4 {
 
 .inline-block {
     display: inline-block;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
 
 /*--------------------------------------------Heading*/
@@ -91,27 +129,26 @@ header {
     font-size: 0;
 }
 
-#nav {
-    margin: 0;
-}
-
 #nav li {
     font-size: 14px;
     padding: 0;
 }
 
-.menuitem  {
+#nav {
+    margin: 0;
+}
+
+.menuitem {
     height: 120px;
     text-align: center;
     padding: 0;
 }
 
-.menuitem { 
+.menuitem a {
     width: 100%;
-    text-decoratio n: none;
+    text-decoration: none;
     color: #fff;
     height: 120px;
-
 }
 
 .menuitem a i {
@@ -132,18 +169,16 @@ header {
     letter-spacing: 2px;
 }
 
-/*--------------------------------------------Hoover.css*/
-
+/*--------------------------------------------Hover.css*/
 
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
     height: 120px;
 }
 
+/* ----------------------------------------Footer */
 
-/*--------------------------------------------Footer*/
-
-footer { 
+footer {
     background-color: #525252;
     color: #fafafa;
     min-height: 120px;
@@ -156,16 +191,16 @@ footer {
     text-align: center;
     padding-left: 5px;
     transition: all 0.35s ease-in-out;
-    -moz-transiiton: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
 
-.cv-pdf i:hover { 
+.cv-pdf i:hover {
     color: #e84610;
 }
 
-.social-links { 
+.social-links {
     padding-bottom: 15px;
 }
 
@@ -180,7 +215,7 @@ footer {
     color: #fafafa;
     background: #8f8f8f;
     transition: all 0.35s ease-in-out;
-    -moz-transiiton: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
@@ -190,8 +225,16 @@ footer {
 }
 
 #footer-details {
-   padding: 20px;
+    padding: 20px;
 }
 
+/* ----------------------------------------Three Reasons */
 
+.three-reasons-icon {
+    font-size: 26px;
+    color: #e67e22;
+}
 
+.three-reasons-heading {
+    margin-bottom: 15px;
+}
